@@ -4,7 +4,7 @@ Thanks for your interest in contributing to this repository!
 
 ## What This Is
 
-This repo archives the **leaked source code** of Anthropic's Claude Code CLI. Contributions here are about **documentation, tooling, and exploration aids** — not modifying the original Claude Code source.
+This repo contains the Claude Code CLI source. Contributions here are about **documentation, tooling, and exploration aids** — not modifying the original Claude Code source.
 
 ## What You Can Contribute
 
@@ -16,7 +16,7 @@ This repo archives the **leaked source code** of Anthropic's Claude Code CLI. Co
 
 ## What Not to Change
 
-- **`src/` directory** — This is the original leaked source, preserved as-is. Don't modify it.
+- **`src/` directory** — This is the original source, preserved as-is. Don't modify it.
 - The [`backup` branch](https://github.com/codeaashu/claude-code/tree/backup) contains the unmodified original.
 
 ## Getting Started
@@ -45,7 +45,7 @@ npm run build  # Compile to dist/
 ### Linting & Type Checking
 
 ```bash
-# From the repo root — checks the leaked src/
+# From the repo root — checks the src/
 npm run lint        # Biome lint
 npm run typecheck   # TypeScript type check
 ```

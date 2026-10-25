@@ -15,9 +15,9 @@ try {
 
 const MACRO_OBJ = {
   VERSION: version,
-  PACKAGE_URL: '@anthropic-ai/claude-code',
+  PACKAGE_URL: '@hoangviet/c-code',
   ISSUES_EXPLAINER:
-    'report issues at https://github.com/anthropics/claude-code/issues',
+    'report issues at https://github.com/hoangviet/c-code/issues',
 }
 
 // Install as global

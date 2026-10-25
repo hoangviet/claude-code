@@ -9,7 +9,7 @@ You are working in `/workspaces/claude-code`. The CLI has several background ser
 - **Session Memory** — persistent conversation history across invocations
 - **Bootstrap Data** — initial config fetched from API on startup
 
-Most of these talk to Anthropic's backend servers and will fail in our dev build. The goal is to make them fail gracefully (not crash the app) or provide stubs.
+Most of these talk to remote backend servers and will fail in our dev build. The goal is to make them fail gracefully (not crash the app) or provide stubs.
 
 ## Key Files
 
@@ -120,4 +120,4 @@ main()
 2. Missing remote services log warnings, not crashes
 3. Session memory reads/writes to the local filesystem
 4. Cost tracking displays locally
-5. The app can start even when Anthropic's backend is unreachable (with just an API key)
+5. The app can start even when the backend is unreachable (with just an API key)

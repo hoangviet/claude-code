@@ -296,7 +296,7 @@ export async function update() {
       MACRO.PACKAGE_URL ||
       (process.env.USER_TYPE === 'ant'
         ? '@anthropic-ai/claude-cli'
-        : '@anthropic-ai/claude-code')
+        : '@hoangviet/c-code')
     process.stderr.write(
       `  • Manually check: npm view ${packageName} version\n`,
     )

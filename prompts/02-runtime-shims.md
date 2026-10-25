@@ -17,7 +17,7 @@ Bun's bundler replaces `feature('X')` with `true`/`false` at build time for dead
 ### 2. `MACRO` global object
 The code references a global `MACRO` object with these properties:
 - `MACRO.VERSION` — package version string (e.g., `"1.0.53"`)
-- `MACRO.PACKAGE_URL` — npm package name (e.g., `"@anthropic-ai/claude-code"`)
+- `MACRO.PACKAGE_URL` — npm package name (e.g., `"@hoangviet/c-code"`)
 - `MACRO.ISSUES_EXPLAINER` — feedback URL/instructions string
 
 These are normally inlined by the bundler. Some files already guard with `typeof MACRO !== 'undefined'`, but most don't.
@@ -81,8 +81,8 @@ try {
 
 const MACRO_OBJ = {
   VERSION: version,
-  PACKAGE_URL: '@anthropic-ai/claude-code',
-  ISSUES_EXPLAINER: 'report issues at https://github.com/anthropics/claude-code/issues',
+  PACKAGE_URL: '@hoangviet/c-code',
+  ISSUES_EXPLAINER: 'report issues at https://github.com/hoangviet/c-code/issues',
 }
 
 // Install as global

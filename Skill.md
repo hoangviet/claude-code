@@ -7,7 +7,7 @@ description: Development conventions and architecture guide for the Claude Code 
 
 ## Project Overview
 
-Claude Code is Anthropic's CLI tool for interacting with Claude from the terminal. It supports file editing, shell commands, git workflows, code review, multi-agent coordination, IDE integration (VS Code, JetBrains), and Model Context Protocol (MCP).
+Claude Code is a CLI tool for interacting with Claude from the terminal. It supports file editing, shell commands, git workflows, code review, multi-agent coordination, IDE integration (VS Code, JetBrains), and Model Context Protocol (MCP).
 
 **Codebase:** ~1,900 files, 512,000+ lines of TypeScript under `src/`.
 

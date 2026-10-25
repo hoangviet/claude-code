@@ -4,7 +4,6 @@
 
 ## Table of Contents
 
-- [How It Leaked](#how-it-leaked)
 - [What Is Claude Code?](#what-is-claude-code)
 - [Documentation](#-documentation)
 - [Explore with MCP Server](#-explore-with-mcp-server)
@@ -26,11 +25,10 @@
 
 ## What Is Claude Code?
 
-Claude Code is Anthropic's official CLI tool for interacting with Claude directly from the terminal — editing files, running commands, searching codebases, managing git workflows, and more. This repository contains the leaked `src/` directory.
+Claude Code is Anthropic's official CLI tool for interacting with Claude directly from the terminal — editing files, running commands, searching codebases, managing git workflows, and more. This repository contains the `src/` directory.
 
 | | |
 |---|---|
-| **Leaked** | 2026-03-31 |
 | **Language** | TypeScript (strict) |
 | **Runtime** | [Bun](https://bun.sh) |
 | **Terminal UI** | [React](https://react.dev) + [Ink](https://github.com/vadimdemedes/ink) |
@@ -410,13 +408,13 @@ git push origin main
 
 Contributions to documentation, the MCP server, and exploration tooling are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-> **Note:** The `src/` directory is the original leaked source and should not be modified.
+> **Note:** The `src/` directory should not be modified.
 
 ---
 
 ## Disclaimer
 
-This repository archives source code leaked from Anthropic's npm registry on **2026-03-31**. All original source code is the property of [Anthropic](https://www.anthropic.com). This is not an official release and is not licensed for redistribution. Contact [aashuu ✦](https://x.com/warrioraashuu) for any comments.
+This repository is maintained by [Viet Nguyen](https://github.com/hoangviet). Contact [aashuu ✦](https://x.com/warrioraashuu) for any comments.
 
 ---
 

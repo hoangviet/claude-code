@@ -76,7 +76,7 @@ git commit --amend --no-edit
 git rebase --continue
 ```
 
-### Step 3: Prevent future leaks
+### Step 3: Prevent future token exposure
 
 ```bash
 echo ".mcpregistry_github_token" >> .gitignore

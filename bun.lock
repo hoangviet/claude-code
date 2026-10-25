@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "@anthropic-ai/claude-code",
+      "name": "@hoangviet/c-code",
       "dependencies": {
         "@anthropic-ai/sdk": "^0.39.0",
         "@commander-js/extra-typings": "^13.1.0",

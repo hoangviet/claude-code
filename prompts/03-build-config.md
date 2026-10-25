@@ -2,7 +2,7 @@
 
 ## Context
 
-You are working in `/workspaces/claude-code`. This is the Claude Code CLI — a TypeScript/TSX terminal app using React + Ink. It was originally built using **Bun's bundler** with feature flags, but that build config wasn't included in the leak.
+You are working in `/workspaces/claude-code`. This is the Claude Code CLI — a TypeScript/TSX terminal app using React + Ink. It was originally built using **Bun's bundler** with feature flags, but that build config wasn't included in the source.
 
 We need to create a build system that:
 1. Bundles the entire `src/` tree into a runnable output
